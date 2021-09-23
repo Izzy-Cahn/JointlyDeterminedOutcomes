@@ -9,6 +9,9 @@
 
 ## Descriptive Statistics 
 
+1.	Run fig-1.do to get minimum wage over time figure, percent of workers below minimum wage over time figure, and minimum wage changes in each state figures. 
+2.	Run fig-2.do to get wages and hours worked over time figures.
+
 ## Fixed Effects Model
 
 ## Counterfactual Joint Distributions
