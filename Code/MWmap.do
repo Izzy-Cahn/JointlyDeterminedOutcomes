@@ -1,6 +1,6 @@
 *fig 3
 ********************************************
-global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
+global figures "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Figures/"
 use usdb, clear
 destring FIPS, replace
 
