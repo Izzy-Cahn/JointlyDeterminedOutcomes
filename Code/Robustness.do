@@ -97,7 +97,7 @@ replace state=95 if stfips==15
 rename intmonth month
 
 *merge minw data 
-merge m:1 year month state using "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Data/mw_state_monthly.dta"
+merge m:1 year month state using "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/mw_state_monthly.dta"
 
 **change for appropriate year
 keep if year==`i'
