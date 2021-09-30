@@ -1,5 +1,5 @@
 *Data Preparation with Selection data (i.e. with the possibility of lfp==0)
-global data "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Data/Selection Cleaned Data/"
+global data "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Selection Cleaned Data/"
 set more off
 
 *Base Year*
@@ -96,7 +96,7 @@ replace state=95 if stfips==15
 rename intmonth month
 
 *merge minw data 
-merge m:1 year month state using "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Data/mw_state_monthly.dta"
+merge m:1 year month state using "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/mw_state_monthly.dta"
 
 **change for appropriate year
 keep if year==1989
@@ -241,7 +241,7 @@ replace state=95 if stfips==15
 rename intmonth month
 
 *merge minw data 
-merge m:1 year month state using "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Data/mw_state_monthly.dta"
+merge m:1 year month state using "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/mw_state_monthly.dta"
 
 **change for appropriate year
 keep if year==1992
