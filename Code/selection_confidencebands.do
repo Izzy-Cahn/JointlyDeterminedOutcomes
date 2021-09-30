@@ -1,7 +1,7 @@
 *confience bands for selection model
 
-global tables "/Users/yisroelcahn/JointlyDeterminedOutcomes/Tables/"
-global results "/Users/yisroelcahn/JointlyDeterminedOutcomes/Results/"
+global tables "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Tables/"
+global figures "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Figures/"
 set more off
 
 
