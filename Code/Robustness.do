@@ -1,7 +1,7 @@
 *Robustness
-global data "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Data/Cleaned Data/"
-global tables "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Tables/"
-global figures "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Figures/"
+global data "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Cleaned Data/"
+global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
+global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
 set more off
 
 
