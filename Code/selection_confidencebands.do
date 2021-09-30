@@ -1,7 +1,7 @@
 *confience bands for selection model
 
-global tables "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Tables/"
-global results "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Results/"
+global tables "/Users/yisroelcahn/JointlyDeterminedOutcomes/Tables/"
+global results "/Users/yisroelcahn/JointlyDeterminedOutcomes/Results/"
 set more off
 
 
