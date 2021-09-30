@@ -24,9 +24,10 @@
 3. Run confidencebands.do
 4. Repeat steps 1-3 with the years 1984 and 1989, and the years 2006 and 2012 for those counterfacutual distribution effects. 
 
-## Fixed Effects Model
+## Robustness Checks
 
-## Other Robustness Checks
+1.
 
 ## Selection 
 
+1.
