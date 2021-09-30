@@ -1,8 +1,8 @@
 *Simulation
 
-global results "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Results/"
-global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
-global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
+global results "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Results/"
+global tables "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Tables/"
+global figures "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Figures/"
 set more off
 
 **simple case
