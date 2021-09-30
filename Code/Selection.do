@@ -4,8 +4,8 @@
 *Change the folders
 * The folder $data must contain the file "data.dta".
 * the results will be saved in the folder $ results.
-global data "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Selection Cleaned Data/"
-global results "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Results/Selection/"
+global data "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Selection Cleaned Data/"
+global results "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Results/Selection/"
 set more off
 
 use "${data}data.dta", clear
