@@ -1,8 +1,8 @@
 *Simulation
 
-global results "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Results/"
-global tables "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Tables/"
-global figures "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Figures/"
+global results "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Results/"
+global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
+global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
 set more off
 
 **simple case
