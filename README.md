@@ -31,4 +31,9 @@
 
 ## Selection 
 
-1.
+1. Run selection_cleaner.do to obtain cleaned MORG CPS data including individuals who are unemployed.  
+2. Run Selcetion_Data_Preparation.do to obtain data.dta used for estimating the counterfactual joint distribution of hours and wages with possible employment effects in 1992 had it the minimum wage compostion of 1989.
+3. Run selection.do
+4. Run selection_confidencebands.do
+5. Repeat steps 2-4 with the years 1984 and 1989, and the years 2006 and 2012 for those counterfacutual distribution effects with possible employment effects. 
+
