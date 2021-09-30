@@ -1,5 +1,6 @@
 *fig 3
 ********************************************
+global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
 use usdb, clear
 destring FIPS, replace
 
