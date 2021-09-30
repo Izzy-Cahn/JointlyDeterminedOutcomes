@@ -1,7 +1,7 @@
 *Robustness
-global data "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Cleaned Data/"
-global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
-global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
+global data "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Cleaned Data/"
+global tables "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Tables/"
+global figures "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Figures/"
 set more off
 
 
@@ -97,7 +97,7 @@ replace state=95 if stfips==15
 rename intmonth month
 
 *merge minw data 
-merge m:1 year month state using "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/mw_state_monthly.dta"
+merge m:1 year month state using "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/mw_state_monthly.dta"
 
 **change for appropriate year
 keep if year==`i'
