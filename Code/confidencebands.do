@@ -1,7 +1,7 @@
 *confience bands
 
-global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
-global results "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Results/"
+global tables "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Tables/"
+global results "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Results/"
 set more off
 
 
