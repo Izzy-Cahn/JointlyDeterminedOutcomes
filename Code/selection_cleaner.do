@@ -14,7 +14,7 @@ set mem 100m
 
 
 forvalues i=79/99{
-use "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Raw Data/morg`i'.dta", clear
+use "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Raw Data/morg`i'.dta", clear
 
    keep if age>=18 & age<=64
    
@@ -296,8 +296,8 @@ label var hr_wage "Hourly wage for hourly employees & imputed hourly wage for fu
 label data "Cleaned `i' Morg Data"
 compress
 
-if (`i'>=73) save "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Selection Cleaned Data/morg_cleaned_19`i'", replace
-if (`i'< 73) save "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Selection Cleaned Data/morg_cleaned_20`i'", replace
+if (`i'>=73) save "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Selection Cleaned Data/morg_cleaned_19`i'", replace
+if (`i'< 73) save "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Selection Cleaned Data/morg_cleaned_20`i'", replace
 
  
 }
