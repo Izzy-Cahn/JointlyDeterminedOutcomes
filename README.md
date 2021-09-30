@@ -27,7 +27,7 @@
 
 ## Robustness Checks
 
-1.
+1. Run Robustness for figures and tables in the Robustness Checks section. 
 
 ## Selection 
 
