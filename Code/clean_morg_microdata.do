@@ -44,7 +44,7 @@ Updated Y. Cahn, 11/15/2019 to accomodate NBER documentation
 clear
 set mem 100m
 
-use "/Users/yisroelcahn/GitHub/Documents/JointlyDeterminedOutcomes/Data/Raw Data/morg`1'.dta", clear
+use "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Raw Data/morg`1'.dta", clear
 
 
 
@@ -399,8 +399,8 @@ label var hr_wage "Hourly wage for hourly employees & imputed hourly wage for fu
 label data "Cleaned `1' Morg Data"
 compress
 
-if (`1'>=73) save "/Users/yisroelcahn/GitHub/Documents/JointlyDeterminedOutcomes/Data/Cleaned Data/morg_cleaned_19`1'", replace
-if (`1'< 73) save "/Users/yisroelcahn/GitHub/Documents/JointlyDeterminedOutcomes/Data/Cleaned Data/morg_cleaned_20`1'", replace
+if (`1'>=73) save "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Cleaned Data/morg_cleaned_19`1'", replace
+if (`1'< 73) save "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Cleaned Data/morg_cleaned_20`1'", replace
 
 /*fold: }}} */
 
