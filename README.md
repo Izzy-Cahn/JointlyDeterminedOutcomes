@@ -15,6 +15,8 @@
 
 ## Simulation 
 
+1. Run Simulation.do to get tables and figures in Appendix A.1 Simulation. 
+
 ## Counterfactual Joint Distributions
 
 ## Fixed Effects Model
