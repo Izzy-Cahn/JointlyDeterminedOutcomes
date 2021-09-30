@@ -1,4 +1,4 @@
-# Replication File for: "Estimating Jointly Determined Outcomes: HowMinimum Wage Affects Wages and Hours Worked"
+# Replication File for: "Estimating Jointly Determined Outcomes: How Minimum Wage Affects Wages and Hours Worked"
 
 ## Data Cleaning 
 
