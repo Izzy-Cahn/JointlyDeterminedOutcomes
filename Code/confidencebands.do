@@ -1,7 +1,7 @@
 *confience bands
 
-global tables "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Tables/"
-global results "/Users/yisroelcahn/Documents/Min Wage Puzzle 3/Results/"
+global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
+global results "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Results/"
 set more off
 
 
