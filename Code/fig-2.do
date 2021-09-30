@@ -1,7 +1,7 @@
 *fig 2
-global data "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/Cleaned Data/"
-global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
-global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
+global data "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/Cleaned Data/"
+global tables "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Tables/"
+global figures "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Figures/"
 set more off
 
 

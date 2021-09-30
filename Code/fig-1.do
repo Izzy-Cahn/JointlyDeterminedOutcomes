@@ -1,7 +1,7 @@
 *fig 1
-global data "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Cleaned Data/"
-global tables "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Tables/"
-global figures "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Figures/"
+global data "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Cleaned Data/"
+global tables "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Tables/"
+global figures "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Figures/"
 set more off
 
 
@@ -101,7 +101,7 @@ replace state=95 if stfips==15
 
 
 *merge minw data 
-merge m:1 year month state using "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/mw_state_monthly.dta"
+merge m:1 year month state using "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/mw_state_monthly.dta"
 
 keep if year==`i'
 
@@ -236,7 +236,7 @@ graph export "${figures}graph4.pdf", replace
 
 
 *Minimum wage changes in each state figures
-import excel "/Users/yisroelcahn/Documents/JointlyDeterminedOutcomes/Data/mw_state_changes.xlsx", sheet("Sheet1") firstrow clear
+import excel "/Users/yisroelcahn/Documents/GitHub/JointlyDeterminedOutcomes/Data/mw_state_changes.xlsx", sheet("Sheet1") firstrow clear
 
 tabulate State, generate(state)
 
