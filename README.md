@@ -22,7 +22,7 @@
 1. Run Data_Preparation.do to obtain data.dta used for estimating the counterfactual joint distribution of hours and wages in 1992 had it the minimum wage compostion of 1989.
 2. Run counterfactual.do
 3. Run confidencebands.do
-4. Repeat steps 1-3 with the years 1984 and 1989, and the years 2006 and 2012 for those counterfacutual distribution effects. 
+4. Repeat steps 1-3 with the years 1984 and 1989, and the years 2006 and 2012 for those counterfacutual distribution effects. In step 2, use counterfactual_84-89.do counterfactual_06-12.do instead of counterfactual.do (or just change years in counterfactual.do to appropriate years). In step 3, change years in confidencebands.do to appropriate years. 
 
 ## Fixed Effects Model
 
